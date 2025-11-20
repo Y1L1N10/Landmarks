@@ -45,6 +45,21 @@
 			path = LandmarksUITests;
 			sourceTree = "<group>";
 		};
+		E10A715D2ECDB2A2006AD7AE /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E10A715F2ECDB2C1006AD7AE /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E10A71612ECDB2F7006AD7AE /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				E10A71282ECD9F65006AD7AE /* Landmarks */,
+				E10A715F2ECDB2C1006AD7AE /* Views */,
+				E10A715D2ECDB2A2006AD7AE /* Model */,
+				E10A71612ECDB2F7006AD7AE /* Resources */,
 				E10A71362ECD9F66006AD7AE /* LandmarksTests */,
 				E10A71402ECD9F66006AD7AE /* LandmarksUITests */,
 				E10A71272ECD9F65006AD7AE /* Products */,
@@ -109,6 +127,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				E10A71282ECD9F65006AD7AE /* Landmarks */,
+				E10A715D2ECDB2A2006AD7AE /* Model */,
+				E10A715F2ECDB2C1006AD7AE /* Views */,
+				E10A71612ECDB2F7006AD7AE /* Resources */,
 			);
 			name = Landmarks;
 			packageProductDependencies = (
@@ -170,6 +191,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
